@@ -40,8 +40,7 @@ public class ArrayStack<T> implements IStack<T> {
     }
     @Override
     public void clear() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'clear'");
+        this.top=0;
     }
     @Override
     public int size() {
